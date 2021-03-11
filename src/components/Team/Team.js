@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Button ,CardDeck ,Card } from 'react-bootstrap';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 import './Team.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
