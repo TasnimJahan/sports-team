@@ -70,13 +70,13 @@ const TeamDetail = () => {
                 sometimes on purpose (injected humour and the like).</p>
             </div>
             <div className="socialMedia">
-                <a href="https://twitter.com/arsenal" target="_blank">
+                <a href="https://twitter.com/arsenal" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="twitterIcon" icon={faTwitter} />
                 </a>
-                <a href="https://www.facebook.com/Arsenal" target="_blank">
+                <a href="https://www.facebook.com/Arsenal" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="fbIcon" icon={faFacebookF} /> 
                 </a>
-                <a href="https://www.youtube.com/user/ArsenalTour" target="_blank">
+                <a href="https://www.youtube.com/user/ArsenalTour" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="youTubeIcon" icon={faYoutube} /> 
                 </a> 
             </div>
