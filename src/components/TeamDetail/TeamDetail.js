@@ -29,7 +29,7 @@ const TeamDetail = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={strStadiumThumb} style={{opacity:'.7'}} alt=""/>
+                        <img className="d-block w-100" src={strStadiumThumb} style={{opacity:'.6'}} alt=""/>
                     </div>
                     <div className="captionLogo" style={{}}>
                     <img src={strTeamBadge} className="logo" alt=""/>
@@ -42,7 +42,7 @@ const TeamDetail = () => {
                     <div className="col-md-6 teamDescription">
                         <div className="card-body">
                             <h2 className="teamName">{strTeam}</h2>
-                            <p> <FontAwesomeIcon icon={faDiscourse} /> Founded:{intFormedYear} </p>
+                            <p> <FontAwesomeIcon icon={faDiscourse} /> Founded: {intFormedYear} </p>
                             <p> <FontAwesomeIcon icon={faFlag} /> Country: {strCountry} </p>
                             <p> <FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</p>
                             <p> <FontAwesomeIcon icon={faMars} /> Gender: {strGender}</p>

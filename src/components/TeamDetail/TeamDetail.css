@@ -46,14 +46,13 @@
     color:white;
 }
 .youTubeIcon, .fbIcon, .twitterIcon{
-    /* border:1px solid black; */
-    padding:4px;
+    padding: 8px;
     border-radius: 100%;
     color: white;
-    width: 3px;
     font-size: 40px;
-    margin: 10px;
-    width: 60px !important;
+    margin: 12px;
+    width: 48px !important;
+    height: 48px!important;
 }
 .youTubeIcon{
     background-color: #FF0000;
