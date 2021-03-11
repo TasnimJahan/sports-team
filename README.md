@@ -1,7 +1,9 @@
 # Sports Team
 
 It is Project of a number of sports team that also provides the details of every teams.
-<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The site has deployed here: [Sports Team](https://sports-team-11.netlify.app/).
 
 ## Features
 
