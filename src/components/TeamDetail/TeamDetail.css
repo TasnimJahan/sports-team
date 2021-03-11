@@ -1,0 +1,66 @@
+/* .container{
+    background-color: rgb(224, 167, 167);
+    padding:0;
+} */
+.carousel-item img{
+    height:17rem!important;
+    /* background-color: rgb(18, 11, 51); */
+}
+.captionLogo .logo{
+    color:white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    height: 9rem;
+}
+.gender{
+    /* border:2px solid black; */
+}
+.teamDetails{
+    margin:2%;
+     border-radius: 10px;
+     text-align: left;
+}
+.card-body p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.teamName{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.description{
+    text-align: left;
+    margin:2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: regular;
+    font-size: 20px;
+    color:white;
+}
+.youTubeIcon, .fbIcon, .twitterIcon{
+    /* border:1px solid black; */
+    padding:4px;
+    border-radius: 100%;
+    color: white;
+    width: 3px;
+    font-size: 40px;
+    margin: 10px;
+    width: 60px !important;
+}
+.youTubeIcon{
+    background-color: #FF0000;
+}
+.fbIcon{
+    background-color: #3B5998;
+}
+.twitterIcon{
+    background-color: #1DA1F2;
+}
