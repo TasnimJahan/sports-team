@@ -15,7 +15,7 @@ const TeamDetail = () => {
         .then(response=>response.json())
         .then(data=> setTeam(data.teams[0]))
     },[id])
-    const {strTeam,intFormedYear,strCountry,strSport,strGender,strStadiumThumb,strTeamBadge} = team;
+    const {strTeam,intFormedYear,strCountry,strSport,strGender,strTeamBanner,strTeamBadge} = team;
     let gender;
     if(strGender === 'Male') {
         gender = <img style={{width:'100%', padding:'2%', margin:'0'}} src={male} alt=""/>
@@ -29,7 +29,7 @@ const TeamDetail = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={strStadiumThumb} style={{opacity:'.6'}} alt=""/>
+                        <img className="d-block w-100" src={strTeamBanner} style={{opacity:'.4'}} alt=""/>
                     </div>
                     <div className="captionLogo" style={{}}>
                     <img src={strTeamBadge} className="logo" alt=""/>
