@@ -15,7 +15,7 @@ const TeamDetail = () => {
         .then(response=>response.json())
         .then(data=> setTeam(data.teams[0]))
     },[id])
-    const {strTeam,intFormedYear,strCountry,strSport,strGender,strTeamBanner,strTeamBadge} = team;
+    const {strTeam,intFormedYear,strCountry,strSport,strGender,strTeamBanner,strTeamBadge,strFacebook,strTwitter,strYoutube} = team;
     let gender;
     if(strGender === 'Male') {
         gender = <img style={{width:'100%', padding:'2%', margin:'0'}} src={male} alt=""/>
@@ -70,13 +70,13 @@ const TeamDetail = () => {
                 sometimes on purpose (injected humour and the like).</p>
             </div>
             <div className="socialMedia">
-                <a href="https://twitter.com/arsenal" target="_blank" rel="noreferrer">
+                <a href={`https://${strTwitter}`} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="twitterIcon" icon={faTwitter} />
                 </a>
-                <a href="https://www.facebook.com/Arsenal" target="_blank" rel="noreferrer">
+                <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="fbIcon" icon={faFacebookF} /> 
                 </a>
-                <a href="https://www.youtube.com/user/ArsenalTour" target="_blank" rel="noreferrer">
+                <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon className="youTubeIcon" icon={faYoutube} /> 
                 </a> 
             </div>
